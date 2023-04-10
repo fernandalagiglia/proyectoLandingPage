@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page|La Giglia</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html" class="nombresitio"><img src="imgs/Logo.png" class="logo" alt="EdSheeran"></a>
+    </header>
+
+    <div id="titulo">
+        <h1>¡Sorteamos un Meet & Greet!</h1>
+    </div>
+
+    <section>
+        <p class="frase">¡Atención a todos los fans de Ed Sheeran en Argentina! ¡Tenemos una sorpresa para ustedes! <br>
+        Participa en nuestro sorteo y gana un Meet & Greet.</p>
+    </section>
+
+    <div class="cajacontenedora1">
+        <div class="cajaimagen">
+            <img src="imgs/Ed.jpg">
+       </div>
+       
+       <div class="caja1">
+            <h4>¿Cómo participar?</h4>
+            <p>Vas a poder conocer en persona al hombre detrás de los éxitos mundiales como "Shape of You" y "Perfect", hacerle preguntas sobre su música y sacarte una foto con él.</p><br>
+            <p>Este es un evento exclusivo para un número limitado de fans que tendrá lugar en el Hipódromo de Palermo el 26 de agosto del 2023. Completá el formulario y participá por un Meet & Greet inigualable. ¡No te pierdas esta oportunidad única!</p>
+        </div>
+    </div>
+
+    <section id="form-section">
+
+        <form action="respuesta.html" method="post">
+            <div>
+                <h2>Formulario de inscripción</h2>
+            </div>
+
+          <div>
+            <label for="nombre">Nombre y apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+          </div>
+
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="edad">
+            <p>Rango de edad:</p>
+
+            <label>
+              <input type="radio" name="edad" value="18-25">
+              <span>18 a 25 años</span>
+            </label>
+
+            <label>
+              <input type="radio" name="edad" value="25-30">
+              <span>25 a 30 años</span>
+            </label>
+
+            <label>
+              <input type="radio" name="edad" value="30-45">
+              <span>30 a 45 años</span>
+            </label>
+
+            <label>
+              <input type="radio" name="edad" value="+45">
+              <span>+ de 45 años</span>
+            </label>
+          </div>
+
+          <div class="show">
+            <label>¿Fuiste al último show en Argentina? </label> 
+            <input type="radio" name="estudio" value="si"> 
+            <span>SI | </span> 
+            <span>NO </span>
+            <input type="radio" name="estudio" value="no"> 
+
+          </div>
+
+          <div>
+            <label for="disco">¿Cuál es tu disco preferido de Ed Sheeran?</label>
+            <select id="disco" name="disco">
+              <option value="1">Seleccionar</option>
+              <option value="plus">Plus</option>
+              <option value="multiply">Multiply</option>
+              <option value="divide">Divide</option>
+              <option value="equals">Equals</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="motivo">Contanos por qué queres ir al Meet & Greet:</label>
+            <textarea id="motivo" name="motivo" required></textarea>
+          </div>
+
+          <div>
+            <input type="submit" value="Participar">
+        </div>
+
+        </form>
+      </section>
+
+
+<footer id="footer">
+    <div class="copyright">
+        <div class="left">
+            <p>Derechos Reservados © 2023</p>
+        </div>
+        <div class="right">
+            <a href="https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V"><img src="imgs/spotify.png" alt="Spotify"></a>
+            <a href="https://www.youtube.com/channel/UC0C-w0YjGpqDXGB8IHb662A"> <img src="imgs/youtube.png" alt="YouTube"></a>
+            <a href="https://www.instagram.com/teddysphotos/"><img src="imgs/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/EdSheeranMusic"><img src="imgs/facebook.png" alt="Facebook"></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

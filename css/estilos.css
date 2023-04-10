@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:ital,wght@0,300;1,300&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {margin:0; padding: 0;}
+
+body { 
+    background-image: url(../imgs/fondo.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    max-width: 100%;}
+    
+.logo { width: 220px; }
+
+header {
+    background-color: #FFDB04;
+    text-align: left; 
+    padding: 2px;
+    width: 80%;
+    margin: auto;
+}
+#titulo {
+    color: #fff;
+}
+.frase{
+    color:#fff;
+}
+.cajacontenedora1 {  
+    width: 80%;
+    padding:1%;
+    padding-bottom: 5%;
+    margin: auto; 
+    display : flex;
+    flex-direction : row;
+    background-color: rgba(0, 0, 0, 0.838);
+    }
+.cajacontenedora1 img{ width: 100%;}
+.cajacontenedora1 div { 
+    width:48%;
+    margin: 1%; 
+    text-align: center; 
+    }
+
+.frase { 
+    text-align: center; 
+    padding: 1%; 
+    margin: 1%; 
+    font-size: 20px; }
+
+h1 {padding: 2%; text-align: center; }
+.caja1 h4{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 5%;
+}
+.caja1 p{
+    font-size: 15px;
+    color: white;
+    letter-spacing: 3px;
+    padding-bottom: 10%;
+}
+
+
+
+
+/*Estilos formulario*/
+form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2px;
+    gap: 2px;
+    line-height: 2em;
+    letter-spacing: 2px;
+    border: #FFDB04 solid;
+  }
+  form div {
+    margin-bottom: 10px;
+  }
+  form h2{
+    text-align: center;
+    color:#fff;
+    margin: 20px;
+  }
+  form p{
+    color:#fff;
+    padding: 2px;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+  }
+
+  input[type="text"], input[type="email"], textarea, select {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  .show{
+    color:#fff;}
+  
+  input[type="submit"] {
+    background-color: #FFDB04;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff0000;
+  }
+
+
+/*Estilos footer*/
+footer {
+  background-color: #FFDB04;
+  color: #fff;
+  padding: 20px;
+  margin: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  text-align: left;
+  color: black;
+}
+
+.right {
+  display: flex;
+}
+.right a img {
+  max-width: 20px;
+  max-height: 20px;
+}
+.right a {
+  margin-left: 10px;
+}
+
+
+/*Respuesta*/
+#respuesta{
+  background-image: none;
+  background-color: #000000;
+  color:#fff;
+  align-items: center;
+}
+
+.titulorespuesta {
+  text-align: center;
+  white-space: nowrap;
+}
+.imagen-respuesta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anuncio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+
+/*Estilos responsive*/
+@media(max-width:768px){
+.logo { width: 123px; }
+#titulo {font-size: 16px;}
+.frase{font-size: 14px;}
+  
+img {
+max-width: 100%;
+height: auto;}
+  
+.cajacontenedora1 {
+  display: flex;
+  font-size: 10px;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;}
+  
+.cajaimagen img{
+  width: 100%;
+  text-align: center;
+}
+  
+.cajatexto {text-align: center;}
+  
+.container {max-width: 100%;}
+  
+#respuesta.logo {
+  width: 50%;
+  }
+
+.titulorespuesta {
+  text-align: center;
+  font-size: 16px;
+  }
+
+.anuncio {
+  text-align: center;
+  font-size: 14px;
+  }
+
+.imagen-respuesta img {
+  width: 100%;
+}
+
+}
